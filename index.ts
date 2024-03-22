@@ -5,11 +5,11 @@ import inquirer from "inquirer";
 const answer = await inquirer.prompt([
 { message: "Enter 1st number", 
 type: "number", 
-name: "firstNumber" },
+name: "first Number" },
 
 {message: "Enter 2nd number",
  type: "number", 
- name: "secondNumber"},
+ name: "second Number"},
 
 {message: "select one of the operator's to perform operation",
  type: "list",
